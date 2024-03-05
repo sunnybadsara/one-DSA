@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #282c35; /* Dark background color */
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  width: 35%;
+  height: auto;
+  background-color: #3b3b3b; /* Darker background color */
+  text-align: center;
+  margin: 100px auto;
+  border-radius: 10px;  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow for a subtle lift */
+
+}
+
+.signup-page {
+  padding: 30px;
+}
+
+.input-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #777;
+  border-radius: 5px;
+  background-color: #3b3b3b; /* Darker background color */
+  color: white;
+  outline: none;
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1c8ee6; /* Blue button color */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.btn:hover {
+  background-color: #1368b6; /* Darker blue on hover */
+}
+
+.login-option {
+  margin-top: 20px;
+  color: #ccc;
+  padding-bottom: 20px;
+}
+
+.login-option a {
+  color: #1c8ee6;
+  text-decoration: none;
+}
+
+.login-option a:hover {
+  text-decoration: underline;
+}

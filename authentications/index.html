@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DSA Daily Question</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="DSA-PREP Logo">
+            
+        </div>
+        
+        <div class="user-info">
+            <a href="signup.html" class="loginlink"><button class="btn">SignUp</button></a>
+            <a href="login.html" class="loginlink"><button class="btn">LogIn</button></a>
+            <p class="streak"></p>
+            <p class="fire">🔥</p>
+            <span class="username"></span>
+            <img src="channels4_profile.jpg" alt="Profile Photo">
+        </div>
+    </header>
+
+    <div id="questions-container">
+        <h1>Question Goes Here</h1>
+        <p id="question"></p>
+        <div class="btns">
+        <button class="btnq" id="show-question-btn" onclick="openquestion()">Solve Question</button>
+        <div id="options-container">
+            <!-- Options go here -->
+            <button id="show-question-btn" onclick="fetchAndShowRandomQuestion()">New Question</button>
+        </div>
+        </div>
+        <br>
+        <button id="show-answer-btn" onclick="showAnswer()">Show Answer</button>
+        <p id="answer" style="display: none;">For answer click on solve question button.</p>
+    </div>
+
+    
+    <script src="login.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
